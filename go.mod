@@ -9,7 +9,14 @@ require (
 	gorm.io/gorm v1.25.2
 )
 
-require github.com/go-sql-driver/mysql v1.7.0 // indirect
+require github.com/Jhon-2801/lib-response v0.0.1
+
+require (
+	github.com/go-kit/kit v0.12.0
+	github.com/go-kit/log v0.2.0 // indirect
+	github.com/go-logfmt/logfmt v0.5.1 // indirect
+	github.com/go-sql-driver/mysql v1.7.0 // indirect
+)
 
 require (
 	github.com/google/uuid v1.3.0 // indirect
